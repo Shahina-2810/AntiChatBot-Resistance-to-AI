@@ -1,0 +1,47 @@
+{
+  "description": "Sample dataset for human behavior patterns",
+  "data": [
+    {
+      "type": "mouse_movement",
+      "pattern": "curved_path",
+      "human_probability": 0.92,
+      "samples": 150
+    },
+    {
+      "type": "mouse_movement",
+      "pattern": "variable_speed",
+      "human_probability": 0.88,
+      "samples": 180
+    },
+    {
+      "type": "mouse_movement",
+      "pattern": "hover_pause",
+      "human_probability": 0.95,
+      "samples": 120
+    },
+    {
+      "type": "keystroke",
+      "pattern": "irregular_timing",
+      "human_probability": 0.91,
+      "samples": 200
+    },
+    {
+      "type": "keystroke",
+      "pattern": "error_correction",
+      "human_probability": 0.89,
+      "samples": 150
+    },
+    {
+      "type": "request",
+      "pattern": "logical_navigation",
+      "human_probability": 0.87,
+      "samples": 180
+    },
+    {
+      "type": "request",
+      "pattern": "session_pauses",
+      "human_probability": 0.93,
+      "samples": 120
+    }
+  ]
+}

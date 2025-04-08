@@ -1,0 +1,47 @@
+{
+  "description": "Sample dataset for bot behavior patterns",
+  "data": [
+    {
+      "type": "mouse_movement",
+      "pattern": "straight_line",
+      "bot_probability": 0.85,
+      "samples": 120
+    },
+    {
+      "type": "mouse_movement",
+      "pattern": "grid_pattern",
+      "bot_probability": 0.92,
+      "samples": 85
+    },
+    {
+      "type": "mouse_movement",
+      "pattern": "constant_speed",
+      "bot_probability": 0.78,
+      "samples": 150
+    },
+    {
+      "type": "keystroke",
+      "pattern": "regular_timing",
+      "bot_probability": 0.88,
+      "samples": 200
+    },
+    {
+      "type": "keystroke",
+      "pattern": "no_errors",
+      "bot_probability": 0.75,
+      "samples": 180
+    },
+    {
+      "type": "request",
+      "pattern": "high_frequency",
+      "bot_probability": 0.95,
+      "samples": 300
+    },
+    {
+      "type": "request",
+      "pattern": "unusual_order",
+      "bot_probability": 0.82,
+      "samples": 120
+    }
+  ]
+}

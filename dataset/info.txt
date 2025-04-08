@@ -1,0 +1,40 @@
+# Dataset for Bot Detection
+
+This directory contains the datasets used for training and testing the bot detection machine learning model.
+
+## Dataset Structure
+
+The dataset consists of the following components:
+
+1. **Mouse Movement Data**: Trajectories, velocities, and patterns of mouse movements from both human and bot interactions.
+2. **Keyboard Input Data**: Typing patterns, speeds, and rhythms from human and automated inputs.
+3. **Session Behavior Data**: Navigation patterns, page interaction times, and session characteristics.
+4. **Form Interaction Data**: How forms are filled, submission patterns, and error handling behaviors.
+
+## Data Collection Methodology
+
+The data was collected through:
+
+- Controlled experiments with known human users
+- Simulated bot interactions using various bot frameworks
+- Real-world website interactions with consent-based tracking
+- Labeled datasets from security research partners
+
+## Data Format
+
+Each record in the dataset contains:
+
+- Timestamp
+- Event type (mouse move, click, key press, etc.)
+- Event details (coordinates, key pressed, etc.)
+- Session identifier
+- Label (human or bot)
+- Confidence score of the label
+
+## Usage
+
+This dataset is used to train the machine learning model located in the `models/` directory. The model is trained to distinguish between human and bot interactions based on behavioral patterns.
+
+## Privacy Considerations
+
+All data has been anonymized and contains no personally identifiable information. The dataset focuses solely on interaction patterns rather than content or personal data.
